@@ -23,6 +23,11 @@ https://www.transmissionzero.co.uk/software/freeglut-devel/
 -lglu32
 ```
 
+### Fix error: freeglut  ERROR:  Function <glutCreateWindow> called without first calling 'glutInit'.
+```bash
+# add to main
+glutInit(&argc, argv);
+```
 
 
 
