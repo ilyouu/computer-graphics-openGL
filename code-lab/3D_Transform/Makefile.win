@@ -1,15 +1,15 @@
-# Project: 3D_Animation
+# Project: 3D_Transform
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = 3D_Animation.o
-LINKOBJ  = 3D_Animation.o
+OBJ      = 3D_Transform.o
+LINKOBJ  = 3D_Transform.o
 LIBS     = -L"D:/Program/Dev-Cpp/MinGW64/lib" -L"D:/Program/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -lopengl32  -lfreeglut  -lglu32
 INCS     = -I"D:/Program/Dev-Cpp/MinGW64/include" -I"D:/Program/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/Program/Dev-Cpp/MinGW64/include" -I"D:/Program/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = 3D_Animation.exe
+BIN      = 3D_Transform.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-3D_Animation.o: 3D_Animation.cpp
-	$(CPP) -c 3D_Animation.cpp -o 3D_Animation.o $(CXXFLAGS)
+3D_Transform.o: 3D_Transform.cpp
+	$(CPP) -c 3D_Transform.cpp -o 3D_Transform.o $(CXXFLAGS)

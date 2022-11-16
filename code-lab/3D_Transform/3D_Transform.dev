@@ -1,6 +1,6 @@
 [Project]
-FileName=3D_Animation.dev
-Name=3D_Animation
+FileName=3D_Transform.dev
+Name=3D_Transform
 Type=1
 Ver=2
 ObjFiles=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=3D_Animation.exe
+OverrideOutputName=3D_Transform.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=3D_Animation.cpp
+FileName=3D_Transform.cpp
 CompileCpp=1
 Folder=
 Compile=1
